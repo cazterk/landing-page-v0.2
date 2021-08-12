@@ -9,7 +9,6 @@ require("typeface-nunito");
 export default function Home() {
   return (
     <div>
-      Hello, world
       <Navbar />
       <Hero />
       <Content />
