@@ -1,0 +1,53 @@
+@import "global";
+@import "media-queries";
+@import "colors";
+
+footer {
+  padding: 1em 0;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    margin: 0.6em auto;
+
+    @include tablet {
+      flex-direction: column;
+    }
+
+    &__logo {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin-left: 0.5em;
+
+      @include tablet {
+        margin-bottom: 1rem;
+      }
+    }
+
+    small {
+      margin-bottom: 0;
+      @include tablet {
+        margin-bottom: 1rem;
+      }
+    }
+
+    &__socials {
+      i {
+        margin: 0 0.6em;
+
+        @include tablet {
+          margin: 1em 0.6em;
+        }
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@ export default function Navbar() {
     <div>
       <div className="navbar">
         <div className="navbar__logo">
-          <a href="#">Cazterk</a>
+          <a href="#">cazterk</a>
         </div>
         <div className="navbar__menu">
           <a href="#" className="">

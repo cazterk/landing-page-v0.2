@@ -8,11 +8,13 @@ require("typeface-nunito");
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Content />
-      <Footer />
+    <div className="main">
+      <div>
+        <Navbar />
+        <Hero />
+        <Content />
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -1,17 +1,35 @@
+@import "global";
+@import "colors";
+
 .content {
   padding: 0 1em;
+  margin-bottom: 1em;
 
-  .card {
+  &__title {
+    border-top: 2px solid #eee;
+    padding: 1em 0;
+  }
+  .cards {
     display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    flex: 1 0 19em;
-    max-width: 32em;
-    overflow: hidden;
-    border-radius: 2px;
-    background: white;
-    color: black;
-    box-shadow: 0 0 8px 0 rgb(0 0 0 / 10%);
-    font-size: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    padding-bottom: 2em;
+    border-bottom: 2px solid #eee;
+    .card {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      flex: 1 0 19em;
+      max-width: 35em;
+      overflow: hidden;
+      border-radius: 2px;
+      background: white;
+      color: black;
+      box-shadow: 0 0 8px 0 rgb(0 0 0 / 10%);
+      font-size: 1rem;
+      padding: 2em;
+    }
   }
 }

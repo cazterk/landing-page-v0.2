@@ -2,4 +2,16 @@
 
 .hero {
   padding: 0 1em;
+  margin: 2.5em 0;
+
+  &__title {
+    font-size: 2.5em;
+    span {
+      color: $accentred;
+    }
+  }
+
+  &__para {
+    line-height: 1.5;
+  }
 }
