@@ -1,4 +1,7 @@
 import React from "react";
+import { AiFillFacebook, AiFillTwitterSquare } from "react-icons/ai";
+import { FaInstagramSquare } from "react-icons/fa";
+import { IconContext } from "react-icons/lib";
 import "../assets/scss/footer.scss";
 
 export default function Footer() {
@@ -12,11 +15,19 @@ export default function Footer() {
         <div className="footer">
           <a className="footer__logo">cazterk</a>
           <small> cazterk © {year} All Rights Reserved.</small>
-          <div className="footer__socials">
-            <i>facebook</i>
-            <i>instagram</i>
-            <i>twitter</i>
-          </div>
+          <IconContext.Provider value={{ size: 25 }}>
+            <div className="footer__socials">
+              <i>
+                <AiFillFacebook />
+              </i>
+              <i>
+                <FaInstagramSquare />
+              </i>
+              <i>
+                <AiFillTwitterSquare />
+              </i>
+            </div>
+          </IconContext.Provider>
         </div>
       </footer>
     </div>

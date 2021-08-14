@@ -8,12 +8,14 @@ export default function Hero() {
         <h1 className="hero__title">
           cazterk <span>here</span>:)
         </h1>
-        <p className="hero__para">
+        <p>
           What's up I enjoy making awesome web apps in react and indie games via
-          unity and c# Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Fugiat labore at iusto ducimus veritatis? Amet eligendi dolor soluta
-          asperiores atque obcaecati, tempora quaerat modi cum dolores explicabo
-          deleniti quibusdam similique!
+          unity and c#. I love discovering new things and exploring new
+          technologies in many aspects.
+        </p>
+        <p>
+          Below are some of my project and content I work on, feel free to check
+          it all out
         </p>
       </div>
     </div>

@@ -19,6 +19,7 @@
     "gatsby-plugin-sass": "^4.11.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
     "sass": "^1.37.5",
     "typeface-nunito": "^1.1.13"
   }
