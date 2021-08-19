@@ -24,9 +24,8 @@
       max-width: 35em;
       overflow: hidden;
       border-radius: 2px;
-      background: white;
-      color: black;
-      box-shadow: 0 0 8px 0 rgb(0 0 0 / 10%);
+      color: inherit;
+      box-shadow: 0 0 5px 0 rgb(0 0 0 / 30%);
       font-size: 1rem;
       text-align: center;
       padding: 2em;
@@ -46,8 +45,10 @@
       }
 
       p {
-        line-height: 1.5;
         text-align: start;
+
+        line-height: 1.5;
+        opacity: 0.9;
       }
 
       h3 {

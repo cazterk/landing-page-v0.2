@@ -3,6 +3,7 @@ import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Content from "../components/content";
+import DarkModeToggle from "../components/darkModeToggle";
 import "../assets/scss/home.scss";
 require("typeface-nunito");
 

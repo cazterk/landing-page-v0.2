@@ -9,22 +9,24 @@ export default function Hero() {
     <IconContext.Provider value={{ size: 20 }}>
       <div>
         <div className="hero">
-          <h1 className="hero__title">
-            cazterk <span>here</span>
-          </h1>
-          <p>
-            What's up I enjoy making awesome web apps in react and indie games
-            via unity and c#. I love discovering new things and exploring new
-            technologies in many aspects.
-          </p>
-          <div className="hero__para2">
+          <h2 className="hero__title">
+            cazterk <span>here :)</span>
+          </h2>
+          <div className="hero__para">
+            <p id="p1">
+              What's up I enjoy making awesome web apps in react and indie games
+              via unity and c#. I love discovering new things and exploring new
+              technologies in many aspects.
+            </p>
             <p>
               Below are some of my project and content I work on, feel free to
               email me for inquiries. <FaHandPointRight />
-            </p>{" "}
-            <a href="mailto:zcephas2@gmail.com">
-              <IoMdMail />
-            </a>
+              <span>
+                <a href="mailto:zcephas2@gmail.com">
+                  <IoMdMail />
+                </a>
+              </span>
+            </p>
           </div>
         </div>
       </div>

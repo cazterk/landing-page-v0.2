@@ -1,4 +1,5 @@
 import React from "react";
+import DarkModeToggle from "./darkModeToggle";
 import "../assets/scss/navbar.scss";
 
 export default function Navbar() {
@@ -9,10 +10,10 @@ export default function Navbar() {
           <a href="#">cazterk</a>
         </div>
         <div className="navbar__menu">
+          <DarkModeToggle />
           <a href="#" className="">
             Projects
           </a>
-          <a href="#" className=""></a>
         </div>
       </div>
     </div>
